@@ -1,0 +1,77 @@
+h2{
+  color: #4E5150;
+}
+.images{
+  background-color: #F2F2F2;
+
+  height: 600px;
+  width: 350px;
+  border-radius: 25px;
+  border: 2px;
+
+
+}
+img{
+
+  width: 175.7px;
+  height: 135.91px;
+  left: 826.93px;
+  top: 203.47px;
+ border-radius: 8px;
+}
+.title{
+  color: #4E5150;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.price{
+  color: #4E5150;
+  text-decoration-line: line-through;
+}
+.SP{
+  color: #F2994A;
+
+}
+.rectangle{
+  border-radius: 25px;
+  border: 2px;
+  height: 50px;
+    width: 100px;
+    margin-left: 50px;
+}
+hr{
+  position: absolute;
+width: 327.06px;
+height: 0px;
+left: 538.72px;
+top: 547.27px;
+}
+.line2{
+  position: absolute;
+width: 327.06px;
+height: 0px;
+left: 538.72px;
+top: 600.27px;
+}
+.shipping{
+margin-top: 27px;
+}
+.name{
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  height: 15px;
+}
+td{
+  padding: 0px;
+  margin: 0px;
+}
+.shipping_price{
+  padding-left: 250px;
+}
+.total{
+  padding-left: 250px;
+}
+.total_price{
+  padding-top: 30px;
+}
