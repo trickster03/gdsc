@@ -44,15 +44,15 @@ hr{
   position: absolute;
 width: 327.06px;
 height: 0px;
-left: 365.72px;
-top: 503.27px;
+left: 725.72px;
+top: 625.27px;
 }
 .line2{
   position: absolute;
 width: 327.06px;
 height: 0px;
-left:  365.72px;
-top: 550.27px;
+left:  725.72px;
+top: 678px;
 }
 .shipping{
 margin-top: 27px;
@@ -86,8 +86,8 @@ td{
   position: absolute;
   width: 166px;
   height: 54px;
-  left: 539px;
-  top: 886px;
+  left: 450px;
+  top: 850px;
 
   /* Orange */
 
