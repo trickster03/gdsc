@@ -3,38 +3,60 @@
   <head>
     <meta charset="utf-8">
     <title>Checkout</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css" integrity="sha512-xX2rYBFJSj86W54Fyv1de80DWBq7zYLn2z0I9bIhQG+rxIF6XVJUpdGnsNHWRa6AvP89vtFupEPDP8eZAtu9qA==" crossorigin="anonymous" referrerpolicy="no-referrer" >
   </head>
+
   <link rel="stylesheet" href="styles.css">
   <body>
 <h2><strong>Checkout</strong></h2>
 <table class="table" cellspacing="20" >
   <tr>
-    <td><h6 class="HEADINGS">E-mail</h6>
+    <td><form class="" action="index.html" method="post">
+          <h3>Contact information</h3>
+          <div class="contact">
+            <label for="email">E-mail</label>
+            <input  type="email" placeholder=" &#xf0e0;  Enter your email..." class="placeicon">
+          </div>
+          <div class="contact">
+            <label for="phone">Phone</label>
+            <input  type="text" placeholder=" &#xf095; Enter your phone..." class="placeicon">
+          </div>
+          <div class="contact">
+            <h3>Shipping address</h3>
+          <label for="name">Full name</label>
+            <input type="text"  placeholder="&#xf007;" class="placeicon" >
+          </div>
+          <div class="contact">
 
-    <input type="email" class="name" name="email" placeholder="Enter your eamil....">
-    <h6 class="HEADINGS">Phone</h6>
-    <input type="tel" class="name" name=""placeholder="Enter your phone...">
-    <br>
-    <h4 class="heading2">Shipping address</h4>
-    <h6 class="HEADINGS">Full name</h6>
-    <input type="text" class="name" name="name" placeholder="Rodney Cotton">
-    <h6 class="HEADINGS">Address</h6>
-    <input type="text" class="name" name="name" placeholder="Your address..">
+            <label for="address">Address</label>
+              <input  type="text" placeholder=" &#xf015; your address..." class="placeicon">
+          </div>
+          <div class="contact">
+            <label for="city">City</label>
+            <input  type="text"  placeholder=" &#xf64f; Your city..." class="placeicon">
+          </div>
 
-    <h6 class="HEADINGS">City</h6>
-    <input type="text" class="name" name="name" placeholder="Your city...">
 
-    <h6 class="HEADINGS">Country</h6>
-    <select>
-       <option>Your country..</option>
+             <table>
+               <td><div class="contact">
+                 <h5  style="font-weight:normal">Country</h5>
+                   <input type="text"  placeholder=" &#xf0ac; Your Country..." class="placeicon">
+               </div></td>
+               <td>  <div class="contact">
+                   <h5 style="font-weight:normal">Postal code</h5>
+                     <input  type="text"  placeholder="Your Postal Code..." class="placeicon">
+                 </div></td>
 
-    </select>
-    <h6>Postal code</h6>
-    <input type="text" class="name" name="name" placeholder="Your postal code....">
+             </table>
 
-  <input type="checkbox" id="check" name="check">
-  <label for="check">Save this information for next time</label>
-  <p><input type="submit" placeholder="Continue"></p></td>
+
+
+            <div class="checkbox">
+              <input class="checkbox1" type="checkbox"  value="" class="placeicon">
+              <p class="save">Save this information for next time</p>
+              <button class="button" type="button" name="button">Continue</button>
+            </div></td>
   <td><div class="images">
     <table cellspacing="20" >
       <td><img src="https://cdn.shopify.com/s/files/1/0134/7738/0153/files/small-canvas-backpack-manitoba-9.jpg?v=1628182702" alt="Vintage-Backpack"></td>
