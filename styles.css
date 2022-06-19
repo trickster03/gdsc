@@ -10,6 +10,7 @@ h2{
   border: 2px;
 
 
+
 }
 img{
 
@@ -43,15 +44,15 @@ hr{
   position: absolute;
 width: 327.06px;
 height: 0px;
-left: 538.72px;
-top: 547.27px;
+left: 365.72px;
+top: 503.27px;
 }
 .line2{
   position: absolute;
 width: 327.06px;
 height: 0px;
-left: 538.72px;
-top: 600.27px;
+left:  365.72px;
+top: 550.27px;
 }
 .shipping{
 margin-top: 27px;
@@ -74,4 +75,22 @@ td{
 }
 .total_price{
   padding-top: 30px;
+}
+.placeicon{
+  font-family: fontawesome;
+}
+.contact{
+  padding-bottom: 10px;
+}
+.button{
+  position: absolute;
+  width: 166px;
+  height: 54px;
+  left: 539px;
+  top: 886px;
+
+  /* Orange */
+
+  background: #F2994A;
+  border-radius: 12px;
 }
